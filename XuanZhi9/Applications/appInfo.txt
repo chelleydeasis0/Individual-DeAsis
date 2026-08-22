@@ -1,0 +1,1 @@
+[{"appName":"EMTrainer","appPackage":"com.harleynelson.emtrainer.free","appVersion":"27.10.26.20","appVersionCode":27},{"appName":"Aptoide","appPackage":"cm.aptoide.pt","appVersion":"9.22.5.3","appVersionCode":12060}]
