@@ -11,6 +11,8 @@ public class SimpleLogin {
         String email = "Clover0330@gmail.com";
         String password = "Clover0330";
 
+        int maxAttempts = 3;
+
         boolean isLoggedIn = false;
         do {
             System.out.print("Enter email: ");
