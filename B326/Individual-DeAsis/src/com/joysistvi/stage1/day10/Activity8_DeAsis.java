@@ -7,7 +7,7 @@ public class Activity8_DeAsis {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
-        // 1. Declare array
+        // 1. Declare array (para sa Integers)
         int[] numbers = new int[5];
 
         // 2. Input 5 numbers
