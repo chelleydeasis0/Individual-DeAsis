@@ -8,14 +8,14 @@ public class Activity9StringClass_DeAsis {
 
         Scanner sc = new Scanner(System.in);
 
-        // Input 2 countries
+        // 2 countries
         String[] countries = new String[2];
         for (int i = 0; i < countries.length; i++) {
             System.out.print("Enter country " + (i+1) + ": ");
             countries[i] = sc.nextLine();
         }
 
-        // Process each country
+        // each country
         for (int i = 0; i < countries.length; i++) {
             String country = countries[i];
             System.out.println("\nCountry: " + country);

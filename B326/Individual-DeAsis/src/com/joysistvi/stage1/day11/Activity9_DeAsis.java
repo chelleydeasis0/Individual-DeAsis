@@ -12,7 +12,7 @@ public class Activity9_DeAsis {
         int students = sc.nextInt();
         System.out.print("Enter number of subjects: ");
         int subjects = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); //
 
         // Subject names
         String[] subjectNames = new String[subjects];
@@ -33,10 +33,10 @@ public class Activity9_DeAsis {
                 System.out.print("Enter grade for " + subjectNames[j] + ": ");
                 grades[i][j] = sc.nextDouble();
             }
-            sc.nextLine(); // consume newline
+            sc.nextLine(); //
         }
 
-        // Display Grades Report in table format
+        // Display Grades Report
         System.out.println("\n");
         System.out.println("        Grades Report");
 
