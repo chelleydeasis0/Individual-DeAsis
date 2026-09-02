@@ -7,6 +7,7 @@ public class StringMedthodActivity9_DeAsis {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+
         // 1. contains() -
         String sentence = "I love learning Java";
         System.out.println("1. contains(): " + sentence.contains("Java"));
@@ -68,6 +69,12 @@ public class StringMedthodActivity9_DeAsis {
         String scoreText = String.valueOf(score);
 
         System.out.println("10. valueOf(): " + scoreText);
+
+
+        String sentence3 = "Good evening";
+        System.out.println("replace (): " +
+         sentence3.replace(sentence3, "morning"));
+
     }
 }
 

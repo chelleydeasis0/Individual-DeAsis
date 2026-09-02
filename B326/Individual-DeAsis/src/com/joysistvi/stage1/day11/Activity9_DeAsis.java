@@ -58,7 +58,7 @@ public class Activity9_DeAsis {
                 sum += grades[i][j];
             }
             double average = sum / subjects;
-            System.out.printf("%.2f\n", average); // may extra newline para bumaba
+            System.out.printf("%.2f\n", average);
         }
     }
 }
